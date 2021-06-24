@@ -21,7 +21,7 @@ class Paper {
         fill("grey");
         stroke(0);
         strokeWeight(4);
-        image(this.image,100,100,this.radius,this.radius);
+        image(this.image,0,0,this.radius,this.radius);
         pop();
     }
 }
